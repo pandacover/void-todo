@@ -1,5 +1,5 @@
 ## Website address
-[Void Todo](https://voidtodo.heroku.app) hosted on Heroku
+[Void Todo](https://voidtodo.herokuapp.com) hosted on Heroku
 
 **Note: Test account credentials are as follows**
   * User email - *test@gmail.com*
