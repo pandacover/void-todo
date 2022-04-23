@@ -1,0 +1,36 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+*::before,
+*,
+*::after {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+/* Loader */
+
+@keyframes spin {
+    0% {
+        transform: rotate(0deg);
+    }
+
+    100% {
+        transform: rotate(360deg);
+    }
+}
+
+.loader {
+    border-color: blue blue gray gray;
+    animation: spin 1200ms linear infinite;
+}
+
+body.dark button div {
+    transform: translateX(125%);
+}
+
+.active-sprite-btn {
+    color: #00f;
+}
